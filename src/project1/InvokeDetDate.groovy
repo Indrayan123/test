@@ -1,7 +1,7 @@
 package project1;
-@GrabResolver(name='Local', root='http://127.0.0.1:8060/repository/Local')
+@GrabResolver(name='internal', root='http://127.0.0.1:8060/repository/internal')
 
-@Grab('sni.jenkins.wso2:wso2-import-export-jar:1.1')
+@Grab('org.jenkins.wso2:import-export-jar:0.9')
 
 import project1.Sample;
 
