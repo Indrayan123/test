@@ -11,4 +11,9 @@ public class InvokeDetDate
          String vardate= new Sample().GetDate();
          return vardate;
     }
+  public  static String WriteJson()
+   {
+         String vardate= new Sample().WriteJSon();
+         return vardate;
+    }
 }
